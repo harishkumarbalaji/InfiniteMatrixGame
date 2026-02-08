@@ -1,0 +1,58 @@
+# Unreal Engine 5 - standard ignores
+
+# Visual Studio
+.vs/
+*.suo
+*.sln
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# Compiled / binaries
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+Binaries/*
+Plugins/**/Binaries/*
+
+# Build
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# Editor-generated and caches
+Saved/*
+Intermediate/*
+Plugins/**/Intermediate/*
+DerivedDataCache/*
+
+# Built map data
+*_BuiltData.uasset
+
+# IDE / OS
+*.xcodeproj
+*.xcworkspace
+.DS_Store
+Thumbs.db
+
+# Optional: source art (uncomment if you keep source art outside Content)
+# SourceArt/**/*.png
+# SourceArt/**/*.tga
